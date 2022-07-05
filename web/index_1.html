@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour & Travels</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo">&nbsp;&nbsp; <span><b>Tour &</b></span> &nbsp; Travels</a>
+
+    <nav class="navbar">
+        <a href="#home"><b>HOME</b></a>
+        <a href="#book"><b>BOOK</b></a>
+        <a href="#packages"><b>PACKAGES</b></a>
+        <a href="#services"><b>SERVICES</b></a>
+        <a href="#gallery"><b>GALLERY</b></a>
+        <a href="#contact"><b>CONTACT</b></a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  starts-->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Email">
+        <input type="password" class="box" placeholder="password">
+        <input type="submit" value="login now" class="btn">
+        <label for="remember">remember me</label>
+        &nbsp;&nbsp;<input type="checkbox" id="remember">
+        <br>
+        <p>forget password ? <a href="#">&nbsp;click here</a></p>
+        <br>
+        <p>don't have an account ? <a href="#">&nbsp;register now</a></p>
+    </form>
+
+</div>
+
+<!-- login form container ends-->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us, adventure awaits</p>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/video 1.mp4"></span>
+        <span class="vid-btn" data-src="images/video 2.mp4"></span>
+        <span class="vid-btn" data-src="images/video 3.mp4"></span>
+        <span class="vid-btn" data-src="images/video 4.mp4"></span>
+        <span class="vid-btn" data-src="images/video 5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/video 1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/1.jpg" alt="">
+        </div>
+
+        <form   action="Booking" method="post">
+                <div class="inputBox">
+                <h3>Enter your Name</h3>
+                <input type="text" name="name" placeholder="Enter Your name">
+                </div>
+                <div class="inputBox">
+                <h3>Enter your PhoneNo </h3>
+                <input type="text" name="phone" placeholder="Enter your  Phone no.">
+                </div>
+                <div class="inputBox">
+                <h3>Enter your Email</h3>
+                <input type="text" name="mail" placeholder="Enter you Mail">
+                </div>
+            <div class="inputBox">
+                <h3>Enter Place Name</h3>
+                <input type="text" name="place" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>Number of Guests</h3>
+                <input type="number" name="guests" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>Check In </h3>
+                <input type="date" name="arrival_date">
+            </div>
+            <div class="inputBox">
+                <h3>Check Out</h3>
+                <input type="date" name="leaving_date">
+            </div>
+            <div class="inputBox">
+        <!--    <a href="index_2.html"  <input type="submit"     class="btn" value= " book now"> </a>  -->
+          <input type="submit"     class="btn" value=" book now ">  
+            </div>
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/cruise in goa.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>  Goa in Cruise </h3>
+                <p>We, at Goa Boat cruise offer, to take you through the incredible experience without burning a hole in your pocket.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 20000.00 <span>18000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/calangute beach.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Calangute Beach </h3>
+                <p>Set on the beachfront in Marmagao, Calangute beach Royal hotel has a bar and free WiFi. Boasting family rooms, this property also provides guests with a terrace.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 2000.00 <span>2500.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/old goa.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Old Goa </h3>
+                <p>a historical city situated on the southern banks of the Mandovi River in the Ilhas sub-district (present-day Tiswadi taluka) of North Goa district in the Indian state of Goa.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 2000.00 <span>4000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/dudhsagar waterfall.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Dudhsagar Waterfall </h3>
+                <p>Dudhsagar Falls ( lit. ' Sea of Milk ') is a four-tiered waterfall located on the Mandovi River in the Indian state of Goa</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 1500.00 <span>2500.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/butterfly beach.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Bondla Wildlife Sanctuary </h3>
+                <p>Bondla Wildlife Sanctuary is located in northeastern Goa, India in Ponda taluka. The total area of the park is 8 km . It is a popular destination for both tourists and schoolchildren</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 2000.00 <span>2500.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/vagotor beach.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Vagotor Beach </h3>
+                <p>This beautiful beach is located about 22 Kms from Panaji and is situated in Bardez taluka.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 4000.00 <span>5500.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>luxury hotels</h3>
+            <p>No Reservation Costs. Great Rates.Free Cancellation  24/7 Customer Service  No Booking Fees  Secure Booking
+                 Types: Hotels, Apartments, Villas, Hostels, Resorts, B&Bs</p></div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Bebinca. This is Goa's most famous sweet. This dessert is a multi-layered cake made from Ambot Tik. In Konkani, means spur and means spicy. As the name suggests, the dish is 
+                  Crab Xec Xec. Sea food is easily available a Goa's ideal location is on the coast. This curry is Fish Curry Rice. This is the staple food for Goans and is known as xitt coddi in konkari.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Guidelines for Tourist Entry into the State of Goa 1) Pre-booking of accommodation (registered with Department of Tourism) is mandatory. Proof of pre-booking for entire duration of the stay will be checked at the entry points. 2) All tourists will have to undergo a basic screening at the entry point.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the goa</h3>
+            <p>Goa is a state on the southwestern coast of India within the Konkan region, geographically separated from the Deccan highlands by the Western Ghats</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>HEHA! is the easiest and fastest way to book and organise all your holiday extras. Enter your trip details and HEHA! will do the rest</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Yes, Goa vehemently suggests millions of adventure activities, perhaps, the inimitable types, both on land and in water. Among the land based adventure activities, trekking is the most superior one. Multiple types of trekking are available at reasonable rates- jungle trekking, beach trekking etc</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <br>
+                <p>Hot Air ballooning in South in Goa, The approximate cost of a hot air balloon ride in Goa is around INR 14,000 per person for an hour.</p>
+               <br>
+                <a href="https://www.viator.com/tours/Goa/Hot-Air-ballooning-in-South-in-Goa/d4594-5588P256?m=28353&supag=76382119571&supca=1939178107&supsc=aud-435409373039:dsa-647668688366&supai=420120885780&supdv=c&supnt=g&suplp=9040226&supli=&supti=aud-435409373039:dsa-647668688366&tsem=true&supci=aud-435409373039:dsa-647668688366&supap1=&supap2=&gclid=Cj0KCQiA_8OPBhDtARIsAKQu0gaCqXahjFWXwJLyoGowlDGqNZF99szawHIMqGWOh-EF4YLnTMt7iJQaAqxwEALw_wcB" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <br>
+                <p>The Sarzora Lake is a romantic hidden beauty located in Sarzora village of South Goa. Situated approximately 8 Km away from Margao City.</p>
+                <a href="https://www.tripadvisor.in/Attraction_Review-g8858924-d8840935-Reviews-Sarzora_Lake-Sarzora_South_Goa_District_Goa.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <br>
+                <p>Goa is the land of parties and warm sunsets. People come here to enjoy early sunrise and sunsets on the warm sandy beaches.</p>
+                <a href="https://www.visittnt.com/pages/sunset-point-in-goa.html#:~:text=Arambol%20Beach%20is%20referred%20to,people%20while%20watching%20the%20sunset." class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <br>
+                <p>Welcome to Novotel Goa Resort and Spa! Resort that is known for its greenery and tranquil spaces and its close proximity to the Candolim beach. Be entertained ...</p>
+                <a href="https://all.accor.com/hotel/8861/index.en.shtml" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <br>
+                <p>Lies on the southern coast of Goa, Velsao beach connects with the Bogmalo beach lying to its north side and the Majorda & Colva beach lying to its south.</p>
+                <a href="https://www.tripadvisor.in/Attraction_Review-g1204880-d2667621-Reviews-Velsao_Beach-Vasco_da_Gama_South_Goa_District_Goa.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <br>
+                <p>Campal Gardens, Goa ... Campal Gardens, also known as Bhagwan Mahavir Children's Park is a beautiful little well-maintained garden perfect for fun.</p>
+                <a href="https://www.tripadvisor.in/Attraction_Review-g303877-d6104650-Reviews-Campal_Gardens-Panjim_North_Goa_District_Goa.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <br>
+                <p>Goa's Special Food, Fish Thali.A true foodie holidaying in Goa can never ignore the flavourful and spicy Goan food that the state has to offer. </p>
+                <a href="https://www.golokaso.com/best-goan-fish-thali-margao/" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <br>
+                <p>One of Goa's oldest churches, its construction was started in 1594 and was consecrated in 1605 by Archbishop Dom Father Aleixo de Menezes.</p>
+                <a href="https://www.intermiles.com/blog/top-10-famous-churches-in-goa" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>Goa International Airport</h3>
+                <br>
+                <p>Nearest Port Marmugao, Vasco Nearest Railway Station Vasco-da-Gama Runway Orientation 08 / 26 Aerodrome elevation 138 feet / 45.8 M 73 49’ 40.17” E The geographical coordinates 15” 22’ 47.42” N</p>
+                <a href="https://www.aai.aero/en/airports/goa" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+            
+        <div class="image">
+            <img src="images/contact-img.jpeg" alt="#">
+        </div>
+
+            <form action="Contact" method="post" >     
+            <div class="inputBox">
+                <input type="text" name="username" placeholder="Enter Your Name" required="">
+                <input type="email" name="mail" placeholder="Enter Your Email" required="">
+            </div>
+            <div class="inputBox">
+                <input type="number" name="mobile" placeholder="Enter Your Mob-Number" required="">
+                <input type="text" name="subject" placeholder="Subject ..." required="">
+            </div>
+            <textarea placeholder="Write Your Message ..." name="message" id="" cols="30" rows="10"></textarea>
+          <!--  <input type="submit" class="btn" value="send message"> -->
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- goa video section starts-->
+
+<video width="100%" height="auto" controls autoplay loap muted>
+    <source src="images/goavideo.mp4">
+  </video>
+
+<!--- goa video section ends-->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>tour & Travel  is a travel website offering Flights, Hotels and Packages to top destinations throughout the world.</p>
+        </div>
+        <div class="box">
+            <h3> locations</h3>
+            <a href="https://www.makemytrip.com/">india</a>
+            <a href="https://www.britannica.com/place/Goa">goa</a>
+            <a href="https://wikitravel.org/en/Vasco_da_Gama">vasco-da-gama</a>
+            <a href="https://www.indyatour.com/india/goa/attractions-at-panaji-capital-city-goa.php">panaji</a>
+            <a href="https://www.thegoavilla.com/goa/distanation/south-goa-margao.html">Margao</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span>Altaf Raja, Kashif Raza , Talib Ahmad</span> | all rights reserved! </h1>
+
+</section>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
